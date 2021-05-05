@@ -136,10 +136,12 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 75px 0px;
 }
 
 .projects li {
   padding: 0px 40px;
+  width: 500px;
   display: inline-block;
 
 }
