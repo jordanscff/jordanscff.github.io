@@ -158,6 +158,11 @@ a:hover {
 .projects h6 {
   color: black;
 }
+
+.projects img:hover {
+  transform: scale(1.01);
+}
+
 /* projects div end */
 
 
