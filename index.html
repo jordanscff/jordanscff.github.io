@@ -1,29 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Line of Duty</title>
+  <title>Hire Jordan</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cantarell&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="TitleIcon.svg" />
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
+  <meta http-equiv='pragma' content='no-cache'>
 </head>
-
 <body>
+
+  <!-- This div is used for the anchor link-->
+  <div id="home"></div>
+
   <header>
-    <div id='homepage-left'>
-        <img src='airbnb.png'></img>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+
+  <div class="content">
+    <div class="welcome">
+      <h1>Hello, I'm <strong>Jordan</strong>.<br>I'm a Software Developer.</h1>
+      <i class="material-icons"><a href='#about'>arrow_drop_down_circle</a></i>
     </div>
-    <div class='right'>
+
+    <div id="about" class="about-me">
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>
+          <p>
+          <strong>Approachable</strong> and <strong>hard-working</strong> software developer with experience working with
+multiple languages including Python and MySQL. Aside from technical skills, I also
+pride myself on knowing extensive knowledge of the products I work on. By having
+this knowledge, I have become the go-to-person to provide solutions in my area of
+expertise and support to others. I am seeking a Software Developer role that offers the
+opportunity to build on my existing skills, but also has the potential to allow me to
+learn new skills.
+        </p></li>
+        <li><a href="cv.pdf"><img src="aboutme2.svg"></img></a></li>
       </ul>
     </div>
-  </header>
-  <div class='homepage-main'>
-    <div id='main-left'></div>
-    <div id='main-right'></div>
-  </div>
-</body>
 
+    <!-- This div is used for the anchor link-->
+    <div id="projects"></div>
+
+    <div class='projects'>
+      <ul>
+        <li>
+          <a href='https://www.s1jobs.com' target="_blank">
+          <img src='s1homepage.png'>
+          </a>
+        </li>
+        <li>
+          <h6>s1Jobs</h6>
+          <p>Working as a Developer, my role is to develop and maintain all of the sites - There are
+  13 sites in total with our biggest being s1jobs.com. This site alone is visited by over <strong>1
+  million users</strong> every month - making it Scotland's largest job board.<br><br>
+  During my time here, I have also been involved in a successful data migration project
+  for s1jobs. The s1jobs site was previously ran using Perl, with a differently structured
+  database. The migration project was to safely move the data to the newly structured
+  database, and ensure that Jobseekers and Recruiters would be able to continue to use
+  the new Python site with ease.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div id="contact" class="contact">
+      <div id="box1" class="box">
+        <div class='img_circle'><a href='https://www.linkedin.com/in/jordan-ball-ba2b98173/' target="_blank"><img src='linkedin.jpeg'></a>
+        </div>
+        <p>My Linkedin gives an overview of my career so far and my education history. Check it out <a href='https://www.linkedin.com/in/jordan-ball-ba2b98173/' target="_blank">here!</a></p>
+      </div>
+      <div id="box2" class="box">
+        <div class='img_circle'><a href='https://github.com/jordanscff'><img src='github.png'></a>
+        </div>
+        <p>My <a href='https://github.com/jordanscff'>GitHub account</a> contains some of the projects I've worked on. These range from HTML/CSS projects to Flutter App development designs.</p>
+      </div>
+      <div id="box3" class="box">
+        <div class='img_circle'><a href='cv.pdf'><img src='cvicon.svg'></a>
+        </div>
+        <p>You can also <a href='cv.pdf'>view</a> and contact me via my CV. This details my career life so far and my current personal projects.</p>
+      </div>
+    </div>
+
+
+    <footer>
+      <i class="material-icons"><a href='#home'>arrow_drop_down_circle</a></i>
+    </footer>
+  </div>
+
+</body>
 </html>
