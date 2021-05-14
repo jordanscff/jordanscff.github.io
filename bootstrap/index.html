@@ -1,94 +1,62 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Larkhall Baptist Church</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="single_cross.png" />
-</head>
-
-<body>
-  <header>
-    <div class='left'>
-      <a href='index.html'>LBC</a>
-    </div>
-    <div class='right'>
-      <div class='right-left'></div>
-      <div class='right-right'>
-        <a href='#about'>About</a>
-        <a href='#events'>Events</a>
-        <a href='#video'>Video</a>
-        <a href='#contact'>Contact</a>
-      </div>
-    </div>
-  </header>
-  <div id='home' class='page_landing'>
-    <div class='page_landing_content'>
-        <h1 id='hehas'>HE HAS</h1>
-        <h1 id='risen'>RISEN</h1>
-    </div>
-  </div>
-  <div class='homepage-content-middle'>
-    <div class='homepage-content-middle-main'>
-      <h2 id='about'>About us</h2>
-      <p class='content'>We are a group of people from all over Larkhall and the surrounding areas of Lanarkshire, and beyond.  We want to worship and learn more about God together. We are a friendly mix of people from all generations, from tiny children right through to our older members.<br>
-  At Larkhall Baptist we see ourselves as part of God’s family. We all want to be part of something exciting, in a place where God is really at work and where we can enjoy teaching, worship and fellowship together.  Because of this whoever you are, and wherever you are from, we will always aim to give a good welcome here at Larkhall Baptist.<br>
-  Bible study and worship are central to our church. We have opportunities throughout each week for people to be involved in age-appropriate Bible studies.  Our Sunday worship services help us come together to worship God and learn more through the preaching of our pastor Stuart Wadsworth.<br>
-  There are lots of activities on every week at Larkhall Baptist where you can learn more about who God is and how you can be fulfilled in Him.<br>
-  We also want you to know the joy that comes from serving a God who enriches your life and gives you meaning. We want you to experience the love that comes from a community of people working together. We want you to be a part of all that’s going on here!<br>
-    </div>
-  </div>
-  <div class='spacer'></div>
-  <div class='homepage-content-teams'>
-    <div class='homepage-content-teams-main'>
-      <h2>OUR PASTOR</h2>
-      <div class='pastor_card'>
-       <div class='pastor_card_left'><div class='pastor_card_left_image'><img src='cross.png'></div></div>
-       <div class='pastor_card_right'>
-         <p>Rev. Stuart Wadsworth moved to Larkhall in January 1992. Before this he was minister of Kings Park Baptist church Glasgow. His theological training was at BTI Glasgow and then at the Scottish Baptist College. He has four grown-up children, one of whom is also married and now lives in Liverpool. The other three are all involved in the life and work of Larkhall Baptist. Originally Stuart and his wife Ruth came from Burnley in Lancashire. At the end of 2013 Ruth lost her battle to terminal cancer and was called home to be with the Lord.</p>
-       </div>
-     </div>
-    </div>
-  </div>
-  <div class='spacer-end'></div>
-  <div class='homepage-content-whatson'>
-    <div class='homepage-content-whatson-main'>
-      <h2 id='events'>Events</h2>
-      <iframe class='content' id='iframe' src="https://calendar.google.com/calendar/embed?title=Larkhall%20Baptist%20Church&height=600&wkst=1&bgcolor=%23FFFFFF&src=larkhallbaptistchurchscotland%40gmail.com&color=%231B887A&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
-  </div>
-  <div class='spacer-bottom'></div>
-  <div class='homepage-content-clubs'>
-    <div class='homepage-content-clubs-main'>
-      <h2>Clubs</h2>
-      <div class='clubs-cards-box'>
-        <div class='clubs-cards' id='clubs-cards-1'><a href='girls_brigade.html'><h4>Girl's Brigade</h4></a></div>
-        <div class='clubs-cards' id='clubs-cards-2'><a href='rainbow_toddlers.html'><h4>Rainbow Toddlers</h4></a></div>
-        <div class='clubs-cards' id='clubs-cards-3'><a href='art.html'><h4>Jason Campbell’s<br> Art group</h4></a></div>
-      </div>
-    </div>
-  </div>
-  <div class='spacer-bottom-end'></div>
-  <div class='homepage-content-watchlive'>
-    <div class='homepage-content-watchlive-main'>
-      <h2 id='video'>Watch Live</h2>
-      <iframe id='iframe' width="560" height="315" src="https://www.youtube.com/embed/r26UY2i3rOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <link rel="stylesheet" href="styles.css">
+    <title>Larkhall Baptist Church</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <img class='navbar_icon' src='menu_white_24dp.svg'>
+          </button>
+          <a class="navbar-brand" href="#">Larkhall Baptist Church</a>
         </div>
-  </div>
-  <div id='contact' class='homepage-content-contact'>
-    <div class='homepage-content-contact-main'>
-      <h2>Contact</h2>
-      <div class='contact-cards-box'>
-        <div class='contact-cards'><h4>Email<br>test@gmail.com</h4></div>
-        <div class='contact-cards'><h4>Phone<br>01698 881223</h4></div>
-        <div class='contact-cards' id='address'><a href='https://www.google.com/maps/place/Baptist+Church/@55.7333486,-3.9705902,17z/data=!3m1!4b1!4m5!3m4!1s0x4888147f4852d017:0xc1a21b2137d6ca8!8m2!3d55.733283!4d-3.9686003'><h4>27 Machan Rd,<br> Larkhall<br> ML9 1HX</h4></a></div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul id='navbar_bg' class="nav navbar-nav navbar-right">
+            <li><a href="#about_container">About</a></li>
+            <li><a href="#">What's on</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Admin</a></li>
+          </ul>
+      </div>
+    </nav>
+    <div class='container' id='landing_container'>
+      <div class='row'>
+        <div id='landing_page_div' class='col-12'>
+          <h6>He has</h6>
+          <h1>RISEN</h1>
+          <a href='#about_container'><img src='expand_more_white_24dp.svg'></a>
+        </div>
       </div>
     </div>
-  </div>
-  <footer>
-    <p>Copyright ©2021 Larkhall Baptist Church</p>
-  </footer>
-</body>
+    <div class='container' id='about_container'>
+      <div class='row'>
+        <div class='col-sm-2'>
+          <h2>About us</h2>
+        </div>
+        <div class='col-sm-10'>
+          <p id='full_screen'>We are a group of people from all over Larkhall and the surrounding areas of Lanarkshire, and beyond. We want to worship and learn more about God together. We are a friendly mix of people from all generations, from tiny children right through to our older members.
+At Larkhall Baptist we see ourselves as part of God’s family. We all want to be part of something exciting, in a place where God is really at work and where we can enjoy teaching, worship and fellowship together. Because of this whoever you are, and wherever you are from, we will always aim to give a good welcome here at Larkhall Baptist.
+Bible study and worship are central to our church. We have opportunities throughout each week for people to be involved in age-appropriate Bible studies. Our Sunday worship services help us come together to worship God and learn more through the preaching of our pastor Stuart Wadsworth.
+There are lots of activities on every week at Larkhall Baptist where you can learn more about who God is and how you can be fulfilled in Him.
+We also want you to know the joy that comes from serving a God who enriches your life and gives you meaning. We want you to experience the love that comes from a community of people working together. We want you to be a part of all that’s going on here!</p>
+          <p id='smaller_screen'>We are a group of people from all over Larkhall and the surrounding areas of Lanarkshire, and beyond. We want to worship and learn more about God together. We are a friendly mix of people from all generations, from tiny children right through to our older members.
+          At Larkhall Baptist we see ourselves as part of God’s family. We all want to be part of something exciting, in a place where God is really at work and where we can enjoy teaching, worship and fellowship together.
+        Because of this whoever you are, and wherever you are from, we will always aim to give a good welcome here at Larkhall Baptist.
+      We have opportunities throughout each week for people to be involved in age-appropriate Bible studies.</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </body>
 </html>
