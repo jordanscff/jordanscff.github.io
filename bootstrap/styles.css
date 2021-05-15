@@ -84,15 +84,37 @@ body, html {
   height: 100%;
 }
 
-#about_container {
+#all_are_welcome {
+  flex-direction: column;
+  text-align: center;
   background-color: #fee;
-  position: relative;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
+
+#all_are_welcome_border {
+  margin: 5%;
+}
+
+#all_are_welcome_border h2{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#all_are_welcome_border h5{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 5%;
+  color: black;
+}
+
+#all_are_welcome_border h5:hover{
+  transform: scale(1.09);
+}
+
 
 @media (max-width:768px){
   #navbar_bg{
@@ -107,19 +129,19 @@ body, html {
 }
 
 @media (max-width: 600px) {
-  h1 {
+#landing_page_div  h1 {
     font-size: 70px;
   }
 }
 
 @media (max-width: 900px) and (min-width: 600px) {
-  h1 {
+#landing_page_div  h1 {
     font-size: 180px;
   }
 }
 
 @media (min-width: 900px) {
-  h1 {
+#landing_page_div  h1 {
     font-size: 300px;
   }
 }
@@ -143,50 +165,6 @@ body, html {
 #landing_page_div  h6 {
     font-size: 70px;
     top: 45%;
-  }
-}
-
-
-@media (max-width: 800px) {
-h2 {
-    font-size: 14px;
-    font-weight: bold;
-  }
-}
-
-@media (max-width: 1100px) and (min-width: 800px) {
-h2 {
-    font-size: 16px;
-    font-weight: bold;
-  }
-}
-
-@media (min-width: 1100px) {
-h2 {
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 5px;
-  }
-}
-
-
-@media (max-width: 800px) {
-#about_container  p {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 1100px) and (min-width: 800px) {
-#about_container  p {
-    font-size: 12px;
-  }
-}
-
-@media (min-width: 1100px) {
-#about_container  p {
-    font-size: 14px;
-    border-left: 2px solid black;
-    padding-left: 20px;
   }
 }
 
@@ -267,22 +245,4 @@ h2 {
   #landing_container{
     height: 80%!important;
   }
-}
-
-@media (max-width: 600px){
-#about_container{
-  height: 450px;
-}
-}
-
-@media (min-width: 600px) and (max-width: 1100px){
-#about_container{
-  height: 380px;
-}
-}
-
-@media (min-width: 1100px){
-#about_container{
-  height: 400px;
-}
 }
