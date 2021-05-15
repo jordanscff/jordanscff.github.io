@@ -7,26 +7,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.navbar-inverse {
-  background-color: none;
-  background: rgba(76, 175, 80, 0);
-  z-index: 2;
-  border: none;
-  margin-bottom: 0 !important;
-  position: absolute;
-  width: 100%;
-  padding: 10px 20px!important;
-}
-
-.navbar-brand {
-  margin-top: 8px!important;
-  font-weight: bold;
-}
-
-.navbar-brand, a {
-  color: white !important;
-}
-
 body, html {
     height: 100%;
 }
@@ -88,7 +68,6 @@ body, html {
   flex-direction: column;
   text-align: center;
   background-color: #fee;
-  font-family: 'Open Sans', sans-serif;
 }
 
 #all_are_welcome_border {
@@ -101,7 +80,6 @@ body, html {
 }
 
 #all_are_welcome_border h5{
-  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 2px;
@@ -113,20 +91,51 @@ body, html {
 
 #all_are_welcome_border h5:hover{
   transform: scale(1.09);
+  box-shadow: black -5px 5px;
 }
 
-
-@media (max-width:768px){
-  #navbar_bg{
-    background-color: black;
-  }
+#homepage_cards_border {
+  text-align: center;
+  margin: 5%;
 }
 
-@media (min-width:768px){
-  #navbar_bg{
-    margin-top: 8px;
-  }
+#homepage_cards_border h3{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
 }
+
+#homepage_cards_border h5{
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5%;
+  color: black;
+  border-radius: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+#homepage_cards_border h5:hover{
+  transform: scale(1.09);
+  box-shadow: black -5px 5px;
+}
+
+footer {
+  height: 100px;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fee;
+}
+
 
 @media (max-width: 600px) {
 #landing_page_div  h1 {
@@ -243,6 +252,6 @@ body, html {
 
 @media (max-width: 800px) {
   #landing_container{
-    height: 80%!important;
+    height: 60%!important;
   }
 }

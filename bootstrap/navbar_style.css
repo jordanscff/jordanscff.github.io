@@ -1,4 +1,49 @@
+
 .navbar-inverse {
-  background-color: inherit;
+  background-color: none;
+  background: rgba(76, 175, 80, 0);
+  z-index: 2;
   border: none;
+  margin-bottom: 0 !important;
+  position: absolute;
+  width: 100%;
+  padding: 10px 20px!important;
+}
+
+.navbar-brand {
+  margin-top: 8px!important;
+  font-weight: bold;
+}
+
+.navbar-brand, a {
+  color: white !important;
+}
+
+.navbar-toggle {
+  border: none!important;
+}
+
+
+@media (max-width:768px){
+  #navbar_bg{
+    background-color: black;
+  }
+}
+
+@media (min-width:768px){
+  #navbar_bg{
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 800px) {
+  #navbar-brand{
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  #navbar-brand-mobile{
+    display: none;
+  }
 }
