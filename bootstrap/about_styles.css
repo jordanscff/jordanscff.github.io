@@ -24,20 +24,9 @@ body, html {
   letter-spacing: 20px;
   color: white;
   text-align: center;
-  padding: 0% 10%;
   display: flex;
   align-items: center;
   position: relative;
-}
-
-#landing_page_div h6{
-  color: white;
-  position: absolute;
-  z-index: 1;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 0px !important;
-  letter-spacing: 40px;
 }
 
 #landing_page_div h2{
@@ -46,11 +35,13 @@ body, html {
   align-items: center;
   letter-spacing: 10px;
   margin: 0px !important;
+  text-transform: uppercase;
   font-weight: bold;
   z-index: 0;
   color: #ffd1dc;
   opacity: 0.8;
   display: inline-block;
+  color: black; background: #fee; line-height: 74px; font-weight: 700;  padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif;
 }
 
 .spacer {
@@ -72,19 +63,6 @@ body, html {
   height: 100%;
 }
 
-#about_us {
-  flex-direction: column;
-  text-align: center;
-  background-color: #fee;
-}
-
-
-#about_us_border{
-  margin: 5%;
-  font-size: 16px;
-  padding: 2%;
-  color: black;
-}
 
 #music {
   text-align: center;
@@ -198,17 +176,7 @@ footer p {
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1400px){
-  #about_us_border{
-    padding: 0% 10%;
-  }
-}
 
-@media (min-width: 1400px) {
-  #about_us_border{
-    padding: 0% 15%;
-  }
-}
 
 @media (min-width: 900px) {
   #music_border{
