@@ -6,6 +6,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/** Social Links **/
+
 .social_links{
   font-size: 36px;
   display: flex;
@@ -14,6 +16,8 @@ html {
   padding-right: 10px;
   justify-content:flex-end;
   align-items: center;
+  z-index: 1;
+  position: absolute;
 }
 
 .social_links i {
@@ -22,5 +26,37 @@ html {
 }
 
 .social_links i:hover {
-  color: #be8794;
+  transform: scale(1.1);
+}
+
+/** End **/
+
+#hero_image {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  background-color: #5943cb;
+  font-family: 'Patua One', sans-serif;
+  color: white;
+  font-weight: bold!important;
+  overflow: hidden;
+}
+
+#hero_image .row {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#down_arrow {
+  color: #529!important;
+}
+
+#down_arrow:hover {
+  color: yellow!important;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px!important;
 }
