@@ -65,18 +65,22 @@ h1 {
 
 /** End **/
 
-#portfolio_card_container {
+#portfolio_cards {
+  padding: 0px 5px;
 }
 
-#portfolio_card_container .row {
-  margin: 20px 20px;
+#portfolio_card_title {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: uppercase;
 }
 
 #portfolio_card {
-  margin: 10px 2px;
-  height: 200px;
+  height: 100px;
   border-radius: 5px;
-  background-image: linear-gradient(to left bottom, #5943cb , #545);
+  background-image: linear-gradient(to left bottom, #5943cb , #769);
 }
 
 #portfolio_card:hover {
@@ -87,6 +91,10 @@ h1 {
 #portfolio_card h2 {
   color: white;
   font-family: 'Oswald', sans-serif;
+  position: relative;
+  height: 99%;
   text-align: center;
-  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
