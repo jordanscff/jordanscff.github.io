@@ -17,7 +17,7 @@ html {
   justify-content:flex-end;
   align-items: center;
   z-index: 1;
-  position: absolute;
+  position: fixed;
 }
 
 .social_links i {
@@ -30,6 +30,8 @@ html {
 }
 
 /** End **/
+
+/** HERO Image **/
 
 #hero_image {
   position: relative;
@@ -59,4 +61,32 @@ html {
 
 h1 {
   font-size: 50px!important;
+}
+
+/** End **/
+
+#portfolio_card_container {
+}
+
+#portfolio_card_container .row {
+  margin: 20px 20px;
+}
+
+#portfolio_card {
+  margin: 10px 2px;
+  height: 200px;
+  border-radius: 5px;
+  background-image: linear-gradient(to left bottom, #5943cb , #545);
+}
+
+#portfolio_card:hover {
+  transform: scale(0.95);
+  z-index: 1;
+}
+
+#portfolio_card h2 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding-top: 50px;
 }
