@@ -1,34 +1,54 @@
 * {
-  margin: 0 auto;
+  font-family: 'Patua One', sans-serif;
 }
 
-html {
-  background-color: #F9F1F0;
-}
-
-body {
+.button {
+  background-color: #F9F1F0!important;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 button {
-  background-color: #F79489;
+  background-color: #F79489!important;
   border: none;
- color: white;
- padding: 20px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- font-size: 16px;
- margin: 4px 2px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-transform: uppercase!important;
 }
 
 button:hover {
   transform: scale(1.2);
 }
 
+#quotes-div{
+  margin: auto 20px;
+}
+
+.link-container {
+}
+
+#github-button {
+  top: 20px;
+  right: 20px;
+  position: absolute;
+}
+
+#github-button a{
+  color: black!important;
+  text-decoration: none!important;
+}
+
+#github-button a:hover{
+  color: #F79489!important;
+}
 /**
 #F9F1F0
 #FADCD9
